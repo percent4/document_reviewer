@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown文件展示</title>
+    <script src="https://cdn.bootcss.com/showdown/1.9.0/showdown.min.js"></script>
+    <script>
+        function convert(){
+            var converter = new showdown.Converter();
+            var text = "{{ md_content }}";
+            var html = converter.makeHtml(text.replace(/newline/g, "\n"));
+            document.getElementById("result").innerHTML = html;
+        }
+    </script>
+</head>
+
+<body onload="convert()">
+<div id="result" ></div>
+
+</body>
+</html>
