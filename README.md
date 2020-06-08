@@ -5,7 +5,7 @@
 现在系统支持的文档格式如下：
 
 - text/plain: 如txt/log文件等;
-- text/html: 如html/shtml文件等;
+- text/html: 如html文件等;
 - text/csv: csv文件;
 - application/json: json文件;
 - application/pdf: pdf文件;
@@ -33,13 +33,21 @@ python -m SimpleHTTPServer 8081
 ### 效果demo
 
 #### text/plain: 如txt/log文件等
-#### text/html: 如html/shtml文件等
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/txt.png)
+#### text/html: 如html文件等
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/html.png)
 #### text/csv: csv文件
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/csv.png)
 #### application/json: json文件
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/json.png)
 #### application/pdf: pdf文件
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/PDF.png)
 #### text/python: Python文件
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/Python.png)
 #### image/*: 各种图片文件，比如jpg, png等
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/jpg.png)
 #### markdown文件
+![](https://raw.githubusercontent.com/percent4/document_reviewer/master/markdown.png)
 
 ### 后续改进措施
 
